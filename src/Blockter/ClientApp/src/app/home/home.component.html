@@ -60,6 +60,8 @@
         </div>
     </div>
 </div>
+<p-dropdown [options]="cities" [(ngModel)]="selectedCity" optionLabel="name"></p-dropdown>
+<p-tabMenu [model]="items"></p-tabMenu>
 
 <div class="movie-items">
     <div class="container">
