@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Blockter.Domain.Services</RootNamespace>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JHipsterNet.Core" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+        <PackageReference Include="LanguageExt.Core" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Blockter.Infrastructure\Blockter.Infrastructure.csproj" />
+        <ProjectReference Include="..\Blockter.Domain\Blockter.Domain.csproj" />
+        <ProjectReference Include="..\Blockter.Crosscutting\Blockter.Crosscutting.csproj" />
+    </ItemGroup>
+
+</Project>
