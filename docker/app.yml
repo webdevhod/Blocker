@@ -18,7 +18,7 @@ services:
   blockter-app:
     build:
       context: ../
-      dockerfile: Dockerfile-Back
+      dockerfile: Dockerfile
     depends_on:
       db:
         condition: service_healthy
